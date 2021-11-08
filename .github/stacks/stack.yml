@@ -44,7 +44,7 @@ configs:
       parameters: 
         protected-branches: false
         allowed-branch-rules:
-          - main
+          - main/*
           - releases/*
 
 init:
